@@ -58,7 +58,7 @@ A RESTful API built with FastAPI for fetching, storing, and analyzing paragraphs
 
 ### Key Components
 
-#### `app/redis_client.py` ⭐ NEW
+#### `app/redis_client.py`
 Redis operations for performance optimization:
 - **Inverted Index**: O(1) word lookup using Redis Sets (1000x faster search)
 - **Word Frequencies**: Real-time ZSET for instant top-10 retrieval
